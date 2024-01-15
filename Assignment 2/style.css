@@ -1,0 +1,91 @@
+/* Make all the text in the page the same */
+* {
+  font-family: "Andale Mono", monospace;
+}
+/* Main Body Design */
+body {
+  display: flex;
+  background-color: rgb(14, 19, 25);
+  background-image: url(Wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* overflow: hidden; */
+}
+/* Poster Design */
+.poster {
+  text-align: center;
+  margin: 60px auto;
+  width: 70%;
+  height: auto;
+  padding: 20px;
+  background: none;
+  backdrop-filter: blur(30px);
+  border: 5px solid rgb(161, 118, 75);
+}
+/* Title Design */
+.title {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: "Star Wars";
+  color: rgb(249, 236, 133);
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+/* Main Image Configuration */
+img {
+  float: left;
+  height: 684px;
+  width: 436.8px;
+  border: 2px solid rgb(161, 118, 75);
+}
+/* Whole Text Margin */
+.info {
+  margin: 20px;
+}
+/* Subtitle Details */
+.subtitle {
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(249, 236, 133);
+}
+/* Synopsis Details */
+.synopsis {
+  text-align: justify;
+  margin-left: 500px;
+  margin-right: 45px;
+  font-size: 18px;
+  margin-bottom: -60px;
+  color: rgb(215, 213, 199);
+}
+/* Second Subtitle Details */
+.subtitle2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  color: deepskyblue;
+}
+/* Release Date Details */
+.release-date {
+  font-size: 56px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  color: yellow;
+}
+/* Button Style */
+button {
+  position: static;
+  padding: 20px 70px;
+  top: 75%;
+  left: 49.5%;
+  font-size: 60px;
+  border: 2px solid rgb(249, 236, 133);
+  color: rgb(249, 236, 133);
+  background: none;
+  letter-spacing: 5px;
+}
+
+button:hover {
+  color: rgb(14, 19, 25);
+  background-color: rgb(249, 236, 133);
+}
